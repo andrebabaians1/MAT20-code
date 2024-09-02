@@ -11,14 +11,14 @@ rho = 0.44; % Probability of dying in hospital.
 p = 0.08; % Probability of being hospitalized.
 N = 56000000; % Total population size.
 backdate = 30; % How long before the data the model starts.
-params0 = [1000; 0.15; 0.15; 0.1;0.15]; % Prior estimates (ignore if adapt = 1).
+params0 = [1000; 0.15; 0.15; 0.1;0.15]; % Initial guesses (ignore if adapt = 1).
 var = 0.0000001 * [1000000 0 0 0 0; 0 1 0 0 0; 0 0 1 0 0; 0 0 0 1 0;0 0 0 0 1]; % Initial covariance matrix (ignore if adapt = 1).
 runNum = 50000; % Amount each chain runs for.
 adapt = 1; % Flag to show if adaptive MCMC is enabled.
 chainFileName = 'chain.csv'; % File name to store the previous chain.
 varStep = 1; % Covariance matrix scale (leave at 1 for default).
 
-% Function that's passed into the ode45 function. Calculate the derivatives
+% Function that's passed into the ode45 function. Calculates the derivatives
 % and returns them to be integrated.
 function derivatives = SihrdModel(t, y, betaVector, alpha, gamma, p, rho, changePoints)
    
@@ -44,7 +44,7 @@ function derivatives = SihrdModel(t, y, betaVector, alpha, gamma, p, rho, change
 
 end
 
-% Takes model paramters, parameter estimates, data, backdate and change
+% Takes model paramters, proposed parameters, data, backdate and change
 % points. It calculates the value of a fitting function proportional to the log
 % likelihood using the parameter estimates and returns it.
 function fit = FittingFunction(params, tspan, alpha, gamma, p, rho, N, backdate, dataValue, changePoints)
@@ -56,21 +56,21 @@ function fit = FittingFunction(params, tspan, alpha, gamma, p, rho, N, backdate,
     [t, y] = ode45(@(t, y) SihrdModel(t, y, params(2:end), alpha, gamma, p, rho, changePoints), tspan, y0);  
 
     % Find the expected admissions as per the ODE model.
-    lambda = y(backdate + 2:end,2) .* p .* alpha;
+    eta = y(backdate + 2:end,2) .* p .* alpha;
 
     % Calculates and returns value of fitting function.
-    expression = -lambda + log(lambda).*dataValue;
+    expression = -eta + log(eta).*dataValue;
     fit = sum(expression);
 end
 
-% Takes data, model parameters, prior estimates, change points, variance, backdate, and run number and carries out Metropolis Hastings algorithm.
+% Takes data, model parameters, intial guesses, change points, variance, backdate, and run number and carries out Metropolis Hastings algorithm.
 % It will output a vector containing the chain of accepted values.
 function paraSet = McmcProcess(data, alpha, gamma, rho, p, N, tspan, params0, changePoints, var, backdate, runNum)
    
     % Converts columns of data into arrays.
     data_value = table2array(data(:,2));
     
-    % Finds value of fitting function using prior estimates.
+    % Finds value of fitting function using initial guesses.
     ll_init = FittingFunction(params0, tspan, alpha, gamma, p, rho, N, backdate, data_value, changePoints);
 
     % Array that will store all parameters that have been accepted by MCMC.
@@ -120,13 +120,13 @@ function paraSet = McmcProcess(data, alpha, gamma, rho, p, N, tspan, params0, ch
        
     end
     
-    % Output acceptance rate.
+    % Outputs acceptance rate.
     acceptanceRate = accepts/runNum
          
 
 end
 
-% Takes the model prarmeters, parameter estimates, time span, backdate and
+% Takes the model prarmeters, proposed parameters, time span, backdate and
 % change points. Plots the expected admissions using the data.
 function PlotGraph(params, tspan, alpha, gamma, p, rho, N, backdate, changePoints, label)
    
@@ -137,11 +137,11 @@ function PlotGraph(params, tspan, alpha, gamma, p, rho, N, backdate, changePoint
     [t, y] = ode45(@(t, y) SihrdModel(t, y, params(2:end), alpha, gamma, p, rho, changePoints), tspan, y0);
     
     % Find the expected admissions as per the ODE model.
-    lambda = y((backdate + 2):end,2) .* p .* alpha;
+    eta = y((backdate + 2):end,2) .* p .* alpha;
     
     % Plots expected admissions.
     hold on;
-    plot(t((backdate + 2):end), lambda, '-o', 'DisplayName', label)
+    plot(t((backdate + 2):end), eta, '-o', 'DisplayName', label)
 end
 
 
@@ -181,29 +181,34 @@ writetable(T, 'mytable.csv', 'WriteRowNames', true);
 figure;
 subplot(2,3,1)
 histogram(paraSet(1, fix(runNum/2) + 1:end))
-xlabel('Parameter value');
-ylabel('Density');
-title('I0');
+xlabel('Parameter value','FontSize',15);
+ylabel('Density','FontSize',15);
+title('I0','FontSize',15);
+set(gca, 'FontSize',15)
 subplot(2,3,2)
 histogram(paraSet(2,fix(runNum/2) + 1:end))
-xlabel('Parameter value');
-ylabel('Density');
-title('Beta1');
+xlabel('Parameter value','FontSize',15);
+ylabel('Density','FontSize',15);
+title('Beta1','FontSize',15);
+set(gca, 'FontSize',15)
 subplot(2,3,3)
 histogram(paraSet(3,fix(runNum/2) + 1:end))
-xlabel('Parameter value');
-ylabel('Density');
-title('Beta2');
+xlabel('Parameter value','FontSize',15);
+ylabel('Density','FontSize',15);
+title('Beta2','FontSize',15);
+set(gca, 'FontSize',15)
 subplot(2,3,4)
 histogram(paraSet(4,fix(runNum/2) + 1:end))
-xlabel('Parameter value');
-ylabel('Density');
-title('Beta3');
+xlabel('Parameter value','FontSize',15);
+ylabel('Density','FontSize',15);
+title('Beta3','FontSize',15);
+set(gca, 'FontSize',15)
 subplot(2,3,5)
 histogram(paraSet(5,fix(runNum/2) + 1:end))
-xlabel('Parameter value');
-ylabel('Density');
-title('Beta4');
+xlabel('Parameter value','FontSize',15);
+ylabel('Density','FontSize',15);
+title('Beta4','FontSize',15);
+set(gca, 'FontSize',15)
 
 % Plot observed admissions.
 figure;
@@ -213,40 +218,43 @@ hold on;
 % Plot median and 5% percentile of the posterior distribution against the
 % observed values.
 PlotGraph(prctile(paraSet',2.5), tspan, alpha, gamma, p , rho, N, backdate, changePoints, 'Lower percentile');
-
 PlotGraph(prctile(paraSet',50), tspan, alpha, gamma, p , rho, N, backdate, changePoints,'Median' );
-
 PlotGraph(prctile(paraSet',97.5), tspan, alpha, gamma, p , rho, N, backdate, changePoints, 'Upper percentile');
-
 legend('show');
-xlabel('Time');
-ylabel('Hospital Admissions');
+xlabel('Time', 'FontSize',20);
+ylabel('Hospital Admissions', 'FontSize',20);
+set(gca, 'FontSize',20)
 
 % Displays the trace plots of our parameters.
 figure;
 subplot(2,3,1) 
 plot(1:runNum, paraSet(1,:));
-xlabel('Iteration');
-ylabel('Parameter Value');
-title('I0');
+xlabel('Iteration','FontSize',15);
+ylabel('Parameter Value','FontSize',15);
+title('I0','FontSize',15);
+set(gca, 'FontSize',15)
 subplot(2,3,2)
 plot(1:runNum, paraSet(2,:));
-xlabel('Iteration');
-ylabel('Parameter Value');
-title('Beta1');
+xlabel('Iteration','FontSize',15);
+ylabel('Parameter Value','FontSize',15);
+title('Beta1','FontSize',15);
+set(gca, 'FontSize',15)
 subplot(2,3,3)
 plot(1:runNum, paraSet(3,:));
-xlabel('Iteration');
-ylabel('Parameter Value');
-title('Beta2');
+xlabel('Iteration','FontSize',15);
+ylabel('Parameter Value','FontSize',15);
+title('Beta2','FontSize',15);
+set(gca, 'FontSize',15)
 subplot(2,3,4)
 plot(1:runNum, paraSet(4,:));
-xlabel('Iteration');
-ylabel('Parameter Value');
-title('Beta3');
+xlabel('Iteration','FontSize',15);
+ylabel('Parameter Value','FontSize',15);
+title('Beta3','FontSize',15);
+set(gca, 'FontSize',15)
 subplot(2,3,5)
 plot(1:runNum, paraSet(5,:));
-xlabel('Iteration');
-ylabel('Parameter Value');
-title('Beta4');
+xlabel('Iteration','FontSize',15);
+ylabel('Parameter Value','FontSize',15);
+title('Beta4','FontSize',15);
+set(gca, 'FontSize',15)
 grid on;
