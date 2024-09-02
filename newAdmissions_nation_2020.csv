@@ -1,0 +1,857 @@
+date,area_type,area_code,area_name,metric,metric_name,value
+2020-06-01,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-06-01,nation,E92000001,England,newAdmissions,New admissions,522.0
+2020-06-01,nation,S92000003,Scotland,newAdmissions,New admissions,7.0
+2020-06-01,nation,W92000004,Wales,newAdmissions,New admissions,73.0
+2020-06-02,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-06-02,nation,W92000004,Wales,newAdmissions,New admissions,106.0
+2020-06-02,nation,E92000001,England,newAdmissions,New admissions,553.0
+2020-06-02,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-06-03,nation,S92000003,Scotland,newAdmissions,New admissions,7.0
+2020-06-03,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-06-03,nation,W92000004,Wales,newAdmissions,New admissions,131.0
+2020-06-03,nation,E92000001,England,newAdmissions,New admissions,491.0
+2020-06-04,nation,E92000001,England,newAdmissions,New admissions,458.0
+2020-06-04,nation,W92000004,Wales,newAdmissions,New admissions,97.0
+2020-06-04,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-06-04,nation,S92000003,Scotland,newAdmissions,New admissions,6.0
+2020-06-05,nation,S92000003,Scotland,newAdmissions,New admissions,10.0
+2020-06-05,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-05,nation,E92000001,England,newAdmissions,New admissions,380.0
+2020-06-05,nation,W92000004,Wales,newAdmissions,New admissions,82.0
+2020-06-06,nation,S92000003,Scotland,newAdmissions,New admissions,6.0
+2020-06-06,nation,E92000001,England,newAdmissions,New admissions,306.0
+2020-06-06,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-06-06,nation,W92000004,Wales,newAdmissions,New admissions,92.0
+2020-06-07,nation,S92000003,Scotland,newAdmissions,New admissions,6.0
+2020-06-07,nation,W92000004,Wales,newAdmissions,New admissions,76.0
+2020-06-07,nation,E92000001,England,newAdmissions,New admissions,323.0
+2020-06-07,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-08,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-08,nation,W92000004,Wales,newAdmissions,New admissions,59.0
+2020-06-08,nation,E92000001,England,newAdmissions,New admissions,348.0
+2020-06-08,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-06-09,nation,E92000001,England,newAdmissions,New admissions,397.0
+2020-06-09,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-06-09,nation,W92000004,Wales,newAdmissions,New admissions,84.0
+2020-06-09,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-06-10,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-10,nation,W92000004,Wales,newAdmissions,New admissions,97.0
+2020-06-10,nation,S92000003,Scotland,newAdmissions,New admissions,7.0
+2020-06-10,nation,E92000001,England,newAdmissions,New admissions,402.0
+2020-06-11,nation,E92000001,England,newAdmissions,New admissions,330.0
+2020-06-11,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-06-11,nation,W92000004,Wales,newAdmissions,New admissions,104.0
+2020-06-11,nation,S92000003,Scotland,newAdmissions,New admissions,7.0
+2020-06-12,nation,E92000001,England,newAdmissions,New admissions,298.0
+2020-06-12,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-06-12,nation,W92000004,Wales,newAdmissions,New admissions,90.0
+2020-06-12,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-06-13,nation,E92000001,England,newAdmissions,New admissions,265.0
+2020-06-13,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-06-13,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-06-13,nation,W92000004,Wales,newAdmissions,New admissions,114.0
+2020-06-14,nation,E92000001,England,newAdmissions,New admissions,306.0
+2020-06-14,nation,S92000003,Scotland,newAdmissions,New admissions,6.0
+2020-06-14,nation,W92000004,Wales,newAdmissions,New admissions,52.0
+2020-06-14,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-15,nation,S92000003,Scotland,newAdmissions,New admissions,6.0
+2020-06-15,nation,W92000004,Wales,newAdmissions,New admissions,68.0
+2020-06-15,nation,E92000001,England,newAdmissions,New admissions,365.0
+2020-06-15,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-16,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-16,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-06-16,nation,W92000004,Wales,newAdmissions,New admissions,95.0
+2020-06-16,nation,E92000001,England,newAdmissions,New admissions,354.0
+2020-06-17,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-06-17,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-17,nation,E92000001,England,newAdmissions,New admissions,334.0
+2020-06-17,nation,W92000004,Wales,newAdmissions,New admissions,91.0
+2020-06-18,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-06-18,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-18,nation,W92000004,Wales,newAdmissions,New admissions,87.0
+2020-06-18,nation,E92000001,England,newAdmissions,New admissions,312.0
+2020-06-19,nation,E92000001,England,newAdmissions,New admissions,253.0
+2020-06-19,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-06-19,nation,W92000004,Wales,newAdmissions,New admissions,78.0
+2020-06-19,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-06-20,nation,W92000004,Wales,newAdmissions,New admissions,68.0
+2020-06-20,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-20,nation,E92000001,England,newAdmissions,New admissions,184.0
+2020-06-20,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-06-21,nation,E92000001,England,newAdmissions,New admissions,215.0
+2020-06-21,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-06-21,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-06-21,nation,W92000004,Wales,newAdmissions,New admissions,68.0
+2020-06-22,nation,E92000001,England,newAdmissions,New admissions,318.0
+2020-06-22,nation,W92000004,Wales,newAdmissions,New admissions,67.0
+2020-06-22,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-06-22,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-06-23,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-06-23,nation,E92000001,England,newAdmissions,New admissions,275.0
+2020-06-23,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-23,nation,W92000004,Wales,newAdmissions,New admissions,79.0
+2020-06-24,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-24,nation,W92000004,Wales,newAdmissions,New admissions,101.0
+2020-06-24,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-06-24,nation,E92000001,England,newAdmissions,New admissions,262.0
+2020-06-25,nation,W92000004,Wales,newAdmissions,New admissions,64.0
+2020-06-25,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-25,nation,E92000001,England,newAdmissions,New admissions,256.0
+2020-06-25,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-06-26,nation,W92000004,Wales,newAdmissions,New admissions,88.0
+2020-06-26,nation,E92000001,England,newAdmissions,New admissions,248.0
+2020-06-26,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-06-26,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-06-27,nation,W92000004,Wales,newAdmissions,New admissions,74.0
+2020-06-27,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-27,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-06-27,nation,E92000001,England,newAdmissions,New admissions,209.0
+2020-06-28,nation,E92000001,England,newAdmissions,New admissions,155.0
+2020-06-28,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-06-28,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-06-28,nation,W92000004,Wales,newAdmissions,New admissions,47.0
+2020-06-29,nation,E92000001,England,newAdmissions,New admissions,172.0
+2020-06-29,nation,W92000004,Wales,newAdmissions,New admissions,46.0
+2020-06-29,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-29,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-06-30,nation,W92000004,Wales,newAdmissions,New admissions,104.0
+2020-06-30,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-06-30,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-06-30,nation,E92000001,England,newAdmissions,New admissions,189.0
+2020-07-01,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-01,nation,W92000004,Wales,newAdmissions,New admissions,66.0
+2020-07-01,nation,E92000001,England,newAdmissions,New admissions,201.0
+2020-07-01,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-07-02,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-02,nation,W92000004,Wales,newAdmissions,New admissions,64.0
+2020-07-02,nation,E92000001,England,newAdmissions,New admissions,149.0
+2020-07-02,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-03,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-03,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-03,nation,W92000004,Wales,newAdmissions,New admissions,65.0
+2020-07-03,nation,E92000001,England,newAdmissions,New admissions,146.0
+2020-07-04,nation,E92000001,England,newAdmissions,New admissions,120.0
+2020-07-04,nation,W92000004,Wales,newAdmissions,New admissions,78.0
+2020-07-04,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-04,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-05,nation,W92000004,Wales,newAdmissions,New admissions,63.0
+2020-07-05,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-05,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-05,nation,E92000001,England,newAdmissions,New admissions,131.0
+2020-07-06,nation,W92000004,Wales,newAdmissions,New admissions,50.0
+2020-07-06,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-06,nation,E92000001,England,newAdmissions,New admissions,150.0
+2020-07-06,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-07,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-07,nation,E92000001,England,newAdmissions,New admissions,148.0
+2020-07-07,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-07,nation,W92000004,Wales,newAdmissions,New admissions,64.0
+2020-07-08,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-07-08,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-07-08,nation,E92000001,England,newAdmissions,New admissions,141.0
+2020-07-08,nation,W92000004,Wales,newAdmissions,New admissions,63.0
+2020-07-09,nation,W92000004,Wales,newAdmissions,New admissions,75.0
+2020-07-09,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-09,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-07-09,nation,E92000001,England,newAdmissions,New admissions,136.0
+2020-07-10,nation,W92000004,Wales,newAdmissions,New admissions,68.0
+2020-07-10,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-07-10,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-10,nation,E92000001,England,newAdmissions,New admissions,104.0
+2020-07-11,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-07-11,nation,W92000004,Wales,newAdmissions,New admissions,76.0
+2020-07-11,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-11,nation,E92000001,England,newAdmissions,New admissions,97.0
+2020-07-12,nation,W92000004,Wales,newAdmissions,New admissions,41.0
+2020-07-12,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-12,nation,E92000001,England,newAdmissions,New admissions,72.0
+2020-07-12,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-13,nation,W92000004,Wales,newAdmissions,New admissions,50.0
+2020-07-13,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-13,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-07-13,nation,E92000001,England,newAdmissions,New admissions,137.0
+2020-07-14,nation,E92000001,England,newAdmissions,New admissions,122.0
+2020-07-14,nation,W92000004,Wales,newAdmissions,New admissions,63.0
+2020-07-14,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-14,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-15,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-07-15,nation,E92000001,England,newAdmissions,New admissions,116.0
+2020-07-15,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-15,nation,W92000004,Wales,newAdmissions,New admissions,48.0
+2020-07-16,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-16,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-07-16,nation,E92000001,England,newAdmissions,New admissions,114.0
+2020-07-16,nation,W92000004,Wales,newAdmissions,New admissions,48.0
+2020-07-17,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-07-17,nation,W92000004,Wales,newAdmissions,New admissions,59.0
+2020-07-17,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-17,nation,E92000001,England,newAdmissions,New admissions,83.0
+2020-07-18,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-18,nation,W92000004,Wales,newAdmissions,New admissions,54.0
+2020-07-18,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-18,nation,E92000001,England,newAdmissions,New admissions,48.0
+2020-07-19,nation,W92000004,Wales,newAdmissions,New admissions,51.0
+2020-07-19,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-19,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-19,nation,E92000001,England,newAdmissions,New admissions,72.0
+2020-07-20,nation,W92000004,Wales,newAdmissions,New admissions,43.0
+2020-07-20,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-20,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-07-20,nation,E92000001,England,newAdmissions,New admissions,86.0
+2020-07-21,nation,E92000001,England,newAdmissions,New admissions,79.0
+2020-07-21,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-21,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-07-21,nation,W92000004,Wales,newAdmissions,New admissions,46.0
+2020-07-22,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-22,nation,E92000001,England,newAdmissions,New admissions,82.0
+2020-07-22,nation,W92000004,Wales,newAdmissions,New admissions,72.0
+2020-07-22,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-07-23,nation,E92000001,England,newAdmissions,New admissions,109.0
+2020-07-23,nation,W92000004,Wales,newAdmissions,New admissions,88.0
+2020-07-23,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-23,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-07-24,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-24,nation,W92000004,Wales,newAdmissions,New admissions,61.0
+2020-07-24,nation,E92000001,England,newAdmissions,New admissions,93.0
+2020-07-24,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-25,nation,E92000001,England,newAdmissions,New admissions,65.0
+2020-07-25,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-07-25,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-07-25,nation,W92000004,Wales,newAdmissions,New admissions,48.0
+2020-07-26,nation,E92000001,England,newAdmissions,New admissions,64.0
+2020-07-26,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-07-26,nation,W92000004,Wales,newAdmissions,New admissions,45.0
+2020-07-26,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-27,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-07-27,nation,W92000004,Wales,newAdmissions,New admissions,43.0
+2020-07-27,nation,E92000001,England,newAdmissions,New admissions,82.0
+2020-07-27,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-28,nation,W92000004,Wales,newAdmissions,New admissions,49.0
+2020-07-28,nation,E92000001,England,newAdmissions,New admissions,69.0
+2020-07-28,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-28,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-07-29,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-07-29,nation,E92000001,England,newAdmissions,New admissions,63.0
+2020-07-29,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-07-29,nation,W92000004,Wales,newAdmissions,New admissions,64.0
+2020-07-30,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-07-30,nation,E92000001,England,newAdmissions,New admissions,75.0
+2020-07-30,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-07-30,nation,W92000004,Wales,newAdmissions,New admissions,53.0
+2020-07-31,nation,E92000001,England,newAdmissions,New admissions,55.0
+2020-07-31,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-07-31,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-07-31,nation,W92000004,Wales,newAdmissions,New admissions,54.0
+2020-08-01,nation,E92000001,England,newAdmissions,New admissions,50.0
+2020-08-01,nation,W92000004,Wales,newAdmissions,New admissions,73.0
+2020-08-01,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-08-01,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-02,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-08-02,nation,W92000004,Wales,newAdmissions,New admissions,35.0
+2020-08-02,nation,E92000001,England,newAdmissions,New admissions,57.0
+2020-08-02,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-08-03,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-08-03,nation,E92000001,England,newAdmissions,New admissions,74.0
+2020-08-03,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-03,nation,W92000004,Wales,newAdmissions,New admissions,29.0
+2020-08-04,nation,W92000004,Wales,newAdmissions,New admissions,65.0
+2020-08-04,nation,E92000001,England,newAdmissions,New admissions,58.0
+2020-08-04,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-08-04,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-08-05,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-08-05,nation,E92000001,England,newAdmissions,New admissions,60.0
+2020-08-05,nation,W92000004,Wales,newAdmissions,New admissions,74.0
+2020-08-05,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-06,nation,E92000001,England,newAdmissions,New admissions,52.0
+2020-08-06,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-08-06,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-08-06,nation,W92000004,Wales,newAdmissions,New admissions,45.0
+2020-08-07,nation,E92000001,England,newAdmissions,New admissions,60.0
+2020-08-07,nation,W92000004,Wales,newAdmissions,New admissions,53.0
+2020-08-07,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-08-07,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-08-08,nation,W92000004,Wales,newAdmissions,New admissions,55.0
+2020-08-08,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-08-08,nation,E92000001,England,newAdmissions,New admissions,78.0
+2020-08-08,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-08-09,nation,W92000004,Wales,newAdmissions,New admissions,51.0
+2020-08-09,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-08-09,nation,S92000003,Scotland,newAdmissions,New admissions,0.0
+2020-08-09,nation,E92000001,England,newAdmissions,New admissions,53.0
+2020-08-10,nation,W92000004,Wales,newAdmissions,New admissions,31.0
+2020-08-10,nation,E92000001,England,newAdmissions,New admissions,50.0
+2020-08-10,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-08-10,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-08-11,nation,W92000004,Wales,newAdmissions,New admissions,47.0
+2020-08-11,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-08-11,nation,E92000001,England,newAdmissions,New admissions,63.0
+2020-08-11,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-08-12,nation,W92000004,Wales,newAdmissions,New admissions,45.0
+2020-08-12,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-08-12,nation,E92000001,England,newAdmissions,New admissions,51.0
+2020-08-12,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-08-13,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-08-13,nation,E92000001,England,newAdmissions,New admissions,60.0
+2020-08-13,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-13,nation,W92000004,Wales,newAdmissions,New admissions,63.0
+2020-08-14,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-14,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-08-14,nation,W92000004,Wales,newAdmissions,New admissions,39.0
+2020-08-14,nation,E92000001,England,newAdmissions,New admissions,55.0
+2020-08-15,nation,E92000001,England,newAdmissions,New admissions,38.0
+2020-08-15,nation,S92000003,Scotland,newAdmissions,New admissions,7.0
+2020-08-15,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-15,nation,W92000004,Wales,newAdmissions,New admissions,52.0
+2020-08-16,nation,E92000001,England,newAdmissions,New admissions,39.0
+2020-08-16,nation,W92000004,Wales,newAdmissions,New admissions,37.0
+2020-08-16,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-16,nation,S92000003,Scotland,newAdmissions,New admissions,2.0
+2020-08-17,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-17,nation,E92000001,England,newAdmissions,New admissions,46.0
+2020-08-17,nation,W92000004,Wales,newAdmissions,New admissions,38.0
+2020-08-17,nation,S92000003,Scotland,newAdmissions,New admissions,5.0
+2020-08-18,nation,W92000004,Wales,newAdmissions,New admissions,63.0
+2020-08-18,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-18,nation,E92000001,England,newAdmissions,New admissions,56.0
+2020-08-18,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-08-19,nation,W92000004,Wales,newAdmissions,New admissions,45.0
+2020-08-19,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-08-19,nation,E92000001,England,newAdmissions,New admissions,58.0
+2020-08-19,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-08-20,nation,E92000001,England,newAdmissions,New admissions,45.0
+2020-08-20,nation,W92000004,Wales,newAdmissions,New admissions,39.0
+2020-08-20,nation,S92000003,Scotland,newAdmissions,New admissions,8.0
+2020-08-20,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-08-21,nation,E92000001,England,newAdmissions,New admissions,49.0
+2020-08-21,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-08-21,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-08-21,nation,W92000004,Wales,newAdmissions,New admissions,54.0
+2020-08-22,nation,W92000004,Wales,newAdmissions,New admissions,39.0
+2020-08-22,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-08-22,nation,E92000001,England,newAdmissions,New admissions,25.0
+2020-08-22,nation,S92000003,Scotland,newAdmissions,New admissions,6.0
+2020-08-23,nation,W92000004,Wales,newAdmissions,New admissions,26.0
+2020-08-23,nation,E92000001,England,newAdmissions,New admissions,44.0
+2020-08-23,nation,S92000003,Scotland,newAdmissions,New admissions,1.0
+2020-08-23,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-08-24,nation,E92000001,England,newAdmissions,New admissions,41.0
+2020-08-24,nation,N92000002,Northern Ireland,newAdmissions,New admissions,5.0
+2020-08-24,nation,S92000003,Scotland,newAdmissions,New admissions,8.0
+2020-08-24,nation,W92000004,Wales,newAdmissions,New admissions,36.0
+2020-08-25,nation,S92000003,Scotland,newAdmissions,New admissions,8.0
+2020-08-25,nation,E92000001,England,newAdmissions,New admissions,60.0
+2020-08-25,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-25,nation,W92000004,Wales,newAdmissions,New admissions,49.0
+2020-08-26,nation,E92000001,England,newAdmissions,New admissions,52.0
+2020-08-26,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-08-26,nation,S92000003,Scotland,newAdmissions,New admissions,9.0
+2020-08-26,nation,W92000004,Wales,newAdmissions,New admissions,69.0
+2020-08-27,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-08-27,nation,W92000004,Wales,newAdmissions,New admissions,70.0
+2020-08-27,nation,E92000001,England,newAdmissions,New admissions,69.0
+2020-08-27,nation,S92000003,Scotland,newAdmissions,New admissions,9.0
+2020-08-28,nation,E92000001,England,newAdmissions,New admissions,44.0
+2020-08-28,nation,W92000004,Wales,newAdmissions,New admissions,83.0
+2020-08-28,nation,S92000003,Scotland,newAdmissions,New admissions,6.0
+2020-08-28,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-08-29,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-08-29,nation,W92000004,Wales,newAdmissions,New admissions,52.0
+2020-08-29,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-08-29,nation,E92000001,England,newAdmissions,New admissions,52.0
+2020-08-30,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-08-30,nation,W92000004,Wales,newAdmissions,New admissions,33.0
+2020-08-30,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-08-30,nation,E92000001,England,newAdmissions,New admissions,38.0
+2020-08-31,nation,W92000004,Wales,newAdmissions,New admissions,29.0
+2020-08-31,nation,E92000001,England,newAdmissions,New admissions,52.0
+2020-08-31,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-08-31,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-09-01,nation,S92000003,Scotland,newAdmissions,New admissions,3.0
+2020-09-01,nation,W92000004,Wales,newAdmissions,New admissions,69.0
+2020-09-01,nation,E92000001,England,newAdmissions,New admissions,58.0
+2020-09-01,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-09-02,nation,S92000003,Scotland,newAdmissions,New admissions,7.0
+2020-09-02,nation,W92000004,Wales,newAdmissions,New admissions,59.0
+2020-09-02,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-09-02,nation,E92000001,England,newAdmissions,New admissions,79.0
+2020-09-03,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-09-03,nation,E92000001,England,newAdmissions,New admissions,69.0
+2020-09-03,nation,W92000004,Wales,newAdmissions,New admissions,70.0
+2020-09-03,nation,S92000003,Scotland,newAdmissions,New admissions,4.0
+2020-09-04,nation,W92000004,Wales,newAdmissions,New admissions,69.0
+2020-09-04,nation,S92000003,Scotland,newAdmissions,New admissions,16.0
+2020-09-04,nation,E92000001,England,newAdmissions,New admissions,67.0
+2020-09-04,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-09-05,nation,W92000004,Wales,newAdmissions,New admissions,27.0
+2020-09-05,nation,E92000001,England,newAdmissions,New admissions,94.0
+2020-09-05,nation,S92000003,Scotland,newAdmissions,New admissions,8.0
+2020-09-05,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-09-06,nation,W92000004,Wales,newAdmissions,New admissions,42.0
+2020-09-06,nation,E92000001,England,newAdmissions,New admissions,85.0
+2020-09-06,nation,S92000003,Scotland,newAdmissions,New admissions,6.0
+2020-09-06,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-09-07,nation,E92000001,England,newAdmissions,New admissions,84.0
+2020-09-07,nation,N92000002,Northern Ireland,newAdmissions,New admissions,0.0
+2020-09-07,nation,S92000003,Scotland,newAdmissions,New admissions,14.0
+2020-09-07,nation,W92000004,Wales,newAdmissions,New admissions,46.0
+2020-09-08,nation,S92000003,Scotland,newAdmissions,New admissions,11.0
+2020-09-08,nation,N92000002,Northern Ireland,newAdmissions,New admissions,4.0
+2020-09-08,nation,W92000004,Wales,newAdmissions,New admissions,65.0
+2020-09-08,nation,E92000001,England,newAdmissions,New admissions,99.0
+2020-09-09,nation,E92000001,England,newAdmissions,New admissions,136.0
+2020-09-09,nation,W92000004,Wales,newAdmissions,New admissions,56.0
+2020-09-09,nation,S92000003,Scotland,newAdmissions,New admissions,8.0
+2020-09-09,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-09-10,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-09-10,nation,E92000001,England,newAdmissions,New admissions,143.0
+2020-09-10,nation,S92000003,Scotland,newAdmissions,New admissions,18.0
+2020-09-10,nation,W92000004,Wales,newAdmissions,New admissions,49.0
+2020-09-11,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-09-11,nation,S92000003,Scotland,newAdmissions,New admissions,18.0
+2020-09-11,nation,W92000004,Wales,newAdmissions,New admissions,70.0
+2020-09-11,nation,E92000001,England,newAdmissions,New admissions,135.0
+2020-09-12,nation,W92000004,Wales,newAdmissions,New admissions,55.0
+2020-09-12,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-09-12,nation,E92000001,England,newAdmissions,New admissions,143.0
+2020-09-12,nation,S92000003,Scotland,newAdmissions,New admissions,15.0
+2020-09-13,nation,W92000004,Wales,newAdmissions,New admissions,55.0
+2020-09-13,nation,E92000001,England,newAdmissions,New admissions,153.0
+2020-09-13,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-09-13,nation,S92000003,Scotland,newAdmissions,New admissions,13.0
+2020-09-14,nation,S92000003,Scotland,newAdmissions,New admissions,18.0
+2020-09-14,nation,E92000001,England,newAdmissions,New admissions,172.0
+2020-09-14,nation,N92000002,Northern Ireland,newAdmissions,New admissions,5.0
+2020-09-14,nation,W92000004,Wales,newAdmissions,New admissions,59.0
+2020-09-15,nation,W92000004,Wales,newAdmissions,New admissions,53.0
+2020-09-15,nation,S92000003,Scotland,newAdmissions,New admissions,17.0
+2020-09-15,nation,E92000001,England,newAdmissions,New admissions,194.0
+2020-09-15,nation,N92000002,Northern Ireland,newAdmissions,New admissions,4.0
+2020-09-16,nation,W92000004,Wales,newAdmissions,New admissions,65.0
+2020-09-16,nation,S92000003,Scotland,newAdmissions,New admissions,30.0
+2020-09-16,nation,E92000001,England,newAdmissions,New admissions,183.0
+2020-09-16,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-09-17,nation,E92000001,England,newAdmissions,New admissions,199.0
+2020-09-17,nation,W92000004,Wales,newAdmissions,New admissions,42.0
+2020-09-17,nation,S92000003,Scotland,newAdmissions,New admissions,19.0
+2020-09-17,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-09-18,nation,W92000004,Wales,newAdmissions,New admissions,41.0
+2020-09-18,nation,S92000003,Scotland,newAdmissions,New admissions,13.0
+2020-09-18,nation,E92000001,England,newAdmissions,New admissions,205.0
+2020-09-18,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-09-19,nation,W92000004,Wales,newAdmissions,New admissions,34.0
+2020-09-19,nation,S92000003,Scotland,newAdmissions,New admissions,19.0
+2020-09-19,nation,N92000002,Northern Ireland,newAdmissions,New admissions,1.0
+2020-09-19,nation,E92000001,England,newAdmissions,New admissions,204.0
+2020-09-20,nation,E92000001,England,newAdmissions,New admissions,237.0
+2020-09-20,nation,W92000004,Wales,newAdmissions,New admissions,28.0
+2020-09-20,nation,N92000002,Northern Ireland,newAdmissions,New admissions,3.0
+2020-09-20,nation,S92000003,Scotland,newAdmissions,New admissions,17.0
+2020-09-21,nation,W92000004,Wales,newAdmissions,New admissions,59.0
+2020-09-21,nation,S92000003,Scotland,newAdmissions,New admissions,26.0
+2020-09-21,nation,E92000001,England,newAdmissions,New admissions,275.0
+2020-09-21,nation,N92000002,Northern Ireland,newAdmissions,New admissions,6.0
+2020-09-22,nation,W92000004,Wales,newAdmissions,New admissions,43.0
+2020-09-22,nation,S92000003,Scotland,newAdmissions,New admissions,31.0
+2020-09-22,nation,N92000002,Northern Ireland,newAdmissions,New admissions,5.0
+2020-09-22,nation,E92000001,England,newAdmissions,New admissions,268.0
+2020-09-23,nation,E92000001,England,newAdmissions,New admissions,314.0
+2020-09-23,nation,N92000002,Northern Ireland,newAdmissions,New admissions,6.0
+2020-09-23,nation,W92000004,Wales,newAdmissions,New admissions,70.0
+2020-09-23,nation,S92000003,Scotland,newAdmissions,New admissions,25.0
+2020-09-24,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-09-24,nation,S92000003,Scotland,newAdmissions,New admissions,33.0
+2020-09-24,nation,W92000004,Wales,newAdmissions,New admissions,94.0
+2020-09-24,nation,E92000001,England,newAdmissions,New admissions,288.0
+2020-09-25,nation,S92000003,Scotland,newAdmissions,New admissions,35.0
+2020-09-25,nation,N92000002,Northern Ireland,newAdmissions,New admissions,2.0
+2020-09-25,nation,E92000001,England,newAdmissions,New admissions,274.0
+2020-09-25,nation,W92000004,Wales,newAdmissions,New admissions,67.0
+2020-09-26,nation,S92000003,Scotland,newAdmissions,New admissions,34.0
+2020-09-26,nation,E92000001,England,newAdmissions,New admissions,245.0
+2020-09-26,nation,W92000004,Wales,newAdmissions,New admissions,61.0
+2020-09-26,nation,N92000002,Northern Ireland,newAdmissions,New admissions,5.0
+2020-09-27,nation,W92000004,Wales,newAdmissions,New admissions,56.0
+2020-09-27,nation,N92000002,Northern Ireland,newAdmissions,New admissions,6.0
+2020-09-27,nation,S92000003,Scotland,newAdmissions,New admissions,33.0
+2020-09-27,nation,E92000001,England,newAdmissions,New admissions,241.0
+2020-09-28,nation,N92000002,Northern Ireland,newAdmissions,New admissions,11.0
+2020-09-28,nation,S92000003,Scotland,newAdmissions,New admissions,44.0
+2020-09-28,nation,W92000004,Wales,newAdmissions,New admissions,71.0
+2020-09-28,nation,E92000001,England,newAdmissions,New admissions,308.0
+2020-09-29,nation,S92000003,Scotland,newAdmissions,New admissions,31.0
+2020-09-29,nation,E92000001,England,newAdmissions,New admissions,310.0
+2020-09-29,nation,N92000002,Northern Ireland,newAdmissions,New admissions,4.0
+2020-09-29,nation,W92000004,Wales,newAdmissions,New admissions,90.0
+2020-09-30,nation,W92000004,Wales,newAdmissions,New admissions,61.0
+2020-09-30,nation,N92000002,Northern Ireland,newAdmissions,New admissions,11.0
+2020-09-30,nation,S92000003,Scotland,newAdmissions,New admissions,46.0
+2020-09-30,nation,E92000001,England,newAdmissions,New admissions,328.0
+2020-10-01,nation,S92000003,Scotland,newAdmissions,New admissions,63.0
+2020-10-01,nation,W92000004,Wales,newAdmissions,New admissions,79.0
+2020-10-01,nation,N92000002,Northern Ireland,newAdmissions,New admissions,11.0
+2020-10-01,nation,E92000001,England,newAdmissions,New admissions,368.0
+2020-10-02,nation,E92000001,England,newAdmissions,New admissions,371.0
+2020-10-02,nation,S92000003,Scotland,newAdmissions,New admissions,56.0
+2020-10-02,nation,W92000004,Wales,newAdmissions,New admissions,94.0
+2020-10-02,nation,N92000002,Northern Ireland,newAdmissions,New admissions,10.0
+2020-10-03,nation,W92000004,Wales,newAdmissions,New admissions,79.0
+2020-10-03,nation,E92000001,England,newAdmissions,New admissions,386.0
+2020-10-03,nation,N92000002,Northern Ireland,newAdmissions,New admissions,15.0
+2020-10-03,nation,S92000003,Scotland,newAdmissions,New admissions,49.0
+2020-10-04,nation,N92000002,Northern Ireland,newAdmissions,New admissions,13.0
+2020-10-04,nation,E92000001,England,newAdmissions,New admissions,478.0
+2020-10-04,nation,W92000004,Wales,newAdmissions,New admissions,92.0
+2020-10-04,nation,S92000003,Scotland,newAdmissions,New admissions,46.0
+2020-10-05,nation,N92000002,Northern Ireland,newAdmissions,New admissions,17.0
+2020-10-05,nation,E92000001,England,newAdmissions,New admissions,472.0
+2020-10-05,nation,W92000004,Wales,newAdmissions,New admissions,59.0
+2020-10-05,nation,S92000003,Scotland,newAdmissions,New admissions,74.0
+2020-10-06,nation,S92000003,Scotland,newAdmissions,New admissions,94.0
+2020-10-06,nation,N92000002,Northern Ireland,newAdmissions,New admissions,26.0
+2020-10-06,nation,E92000001,England,newAdmissions,New admissions,524.0
+2020-10-06,nation,W92000004,Wales,newAdmissions,New admissions,80.0
+2020-10-07,nation,S92000003,Scotland,newAdmissions,New admissions,86.0
+2020-10-07,nation,W92000004,Wales,newAdmissions,New admissions,85.0
+2020-10-07,nation,N92000002,Northern Ireland,newAdmissions,New admissions,24.0
+2020-10-07,nation,E92000001,England,newAdmissions,New admissions,491.0
+2020-10-08,nation,S92000003,Scotland,newAdmissions,New admissions,96.0
+2020-10-08,nation,N92000002,Northern Ireland,newAdmissions,New admissions,21.0
+2020-10-08,nation,W92000004,Wales,newAdmissions,New admissions,76.0
+2020-10-08,nation,E92000001,England,newAdmissions,New admissions,513.0
+2020-10-09,nation,S92000003,Scotland,newAdmissions,New admissions,81.0
+2020-10-09,nation,W92000004,Wales,newAdmissions,New admissions,60.0
+2020-10-09,nation,N92000002,Northern Ireland,newAdmissions,New admissions,23.0
+2020-10-09,nation,E92000001,England,newAdmissions,New admissions,544.0
+2020-10-10,nation,S92000003,Scotland,newAdmissions,New admissions,74.0
+2020-10-10,nation,W92000004,Wales,newAdmissions,New admissions,103.0
+2020-10-10,nation,N92000002,Northern Ireland,newAdmissions,New admissions,17.0
+2020-10-10,nation,E92000001,England,newAdmissions,New admissions,515.0
+2020-10-11,nation,S92000003,Scotland,newAdmissions,New admissions,81.0
+2020-10-11,nation,W92000004,Wales,newAdmissions,New admissions,79.0
+2020-10-11,nation,E92000001,England,newAdmissions,New admissions,628.0
+2020-10-11,nation,N92000002,Northern Ireland,newAdmissions,New admissions,33.0
+2020-10-12,nation,W92000004,Wales,newAdmissions,New admissions,86.0
+2020-10-12,nation,N92000002,Northern Ireland,newAdmissions,New admissions,23.0
+2020-10-12,nation,S92000003,Scotland,newAdmissions,New admissions,106.0
+2020-10-12,nation,E92000001,England,newAdmissions,New admissions,664.0
+2020-10-13,nation,E92000001,England,newAdmissions,New admissions,764.0
+2020-10-13,nation,S92000003,Scotland,newAdmissions,New admissions,123.0
+2020-10-13,nation,W92000004,Wales,newAdmissions,New admissions,98.0
+2020-10-13,nation,N92000002,Northern Ireland,newAdmissions,New admissions,26.0
+2020-10-14,nation,W92000004,Wales,newAdmissions,New admissions,123.0
+2020-10-14,nation,N92000002,Northern Ireland,newAdmissions,New admissions,25.0
+2020-10-14,nation,E92000001,England,newAdmissions,New admissions,706.0
+2020-10-14,nation,S92000003,Scotland,newAdmissions,New admissions,117.0
+2020-10-15,nation,W92000004,Wales,newAdmissions,New admissions,102.0
+2020-10-15,nation,S92000003,Scotland,newAdmissions,New admissions,104.0
+2020-10-15,nation,E92000001,England,newAdmissions,New admissions,792.0
+2020-10-15,nation,N92000002,Northern Ireland,newAdmissions,New admissions,38.0
+2020-10-16,nation,S92000003,Scotland,newAdmissions,New admissions,140.0
+2020-10-16,nation,E92000001,England,newAdmissions,New admissions,632.0
+2020-10-16,nation,W92000004,Wales,newAdmissions,New admissions,105.0
+2020-10-16,nation,N92000002,Northern Ireland,newAdmissions,New admissions,32.0
+2020-10-17,nation,S92000003,Scotland,newAdmissions,New admissions,87.0
+2020-10-17,nation,E92000001,England,newAdmissions,New admissions,785.0
+2020-10-17,nation,N92000002,Northern Ireland,newAdmissions,New admissions,31.0
+2020-10-17,nation,W92000004,Wales,newAdmissions,New admissions,112.0
+2020-10-18,nation,E92000001,England,newAdmissions,New admissions,870.0
+2020-10-18,nation,W92000004,Wales,newAdmissions,New admissions,88.0
+2020-10-18,nation,N92000002,Northern Ireland,newAdmissions,New admissions,35.0
+2020-10-18,nation,S92000003,Scotland,newAdmissions,New admissions,88.0
+2020-10-19,nation,W92000004,Wales,newAdmissions,New admissions,60.0
+2020-10-19,nation,N92000002,Northern Ireland,newAdmissions,New admissions,30.0
+2020-10-19,nation,S92000003,Scotland,newAdmissions,New admissions,138.0
+2020-10-19,nation,E92000001,England,newAdmissions,New admissions,861.0
+2020-10-20,nation,E92000001,England,newAdmissions,New admissions,925.0
+2020-10-20,nation,W92000004,Wales,newAdmissions,New admissions,77.0
+2020-10-20,nation,S92000003,Scotland,newAdmissions,New admissions,135.0
+2020-10-20,nation,N92000002,Northern Ireland,newAdmissions,New admissions,47.0
+2020-10-21,nation,S92000003,Scotland,newAdmissions,New admissions,133.0
+2020-10-21,nation,W92000004,Wales,newAdmissions,New admissions,92.0
+2020-10-21,nation,E92000001,England,newAdmissions,New admissions,997.0
+2020-10-21,nation,N92000002,Northern Ireland,newAdmissions,New admissions,26.0
+2020-10-22,nation,N92000002,Northern Ireland,newAdmissions,New admissions,38.0
+2020-10-22,nation,S92000003,Scotland,newAdmissions,New admissions,135.0
+2020-10-22,nation,E92000001,England,newAdmissions,New admissions,987.0
+2020-10-22,nation,W92000004,Wales,newAdmissions,New admissions,107.0
+2020-10-23,nation,W92000004,Wales,newAdmissions,New admissions,123.0
+2020-10-23,nation,S92000003,Scotland,newAdmissions,New admissions,131.0
+2020-10-23,nation,E92000001,England,newAdmissions,New admissions,997.0
+2020-10-23,nation,N92000002,Northern Ireland,newAdmissions,New admissions,33.0
+2020-10-24,nation,S92000003,Scotland,newAdmissions,New admissions,119.0
+2020-10-24,nation,E92000001,England,newAdmissions,New admissions,990.0
+2020-10-24,nation,W92000004,Wales,newAdmissions,New admissions,98.0
+2020-10-24,nation,N92000002,Northern Ireland,newAdmissions,New admissions,43.0
+2020-10-25,nation,N92000002,Northern Ireland,newAdmissions,New admissions,35.0
+2020-10-25,nation,W92000004,Wales,newAdmissions,New admissions,78.0
+2020-10-25,nation,E92000001,England,newAdmissions,New admissions,1186.0
+2020-10-25,nation,S92000003,Scotland,newAdmissions,New admissions,114.0
+2020-10-26,nation,E92000001,England,newAdmissions,New admissions,1279.0
+2020-10-26,nation,S92000003,Scotland,newAdmissions,New admissions,139.0
+2020-10-26,nation,N92000002,Northern Ireland,newAdmissions,New admissions,38.0
+2020-10-26,nation,W92000004,Wales,newAdmissions,New admissions,76.0
+2020-10-27,nation,S92000003,Scotland,newAdmissions,New admissions,136.0
+2020-10-27,nation,W92000004,Wales,newAdmissions,New admissions,114.0
+2020-10-27,nation,E92000001,England,newAdmissions,New admissions,1190.0
+2020-10-27,nation,N92000002,Northern Ireland,newAdmissions,New admissions,36.0
+2020-10-28,nation,E92000001,England,newAdmissions,New admissions,1239.0
+2020-10-28,nation,W92000004,Wales,newAdmissions,New admissions,83.0
+2020-10-28,nation,N92000002,Northern Ireland,newAdmissions,New admissions,33.0
+2020-10-28,nation,S92000003,Scotland,newAdmissions,New admissions,131.0
+2020-10-29,nation,S92000003,Scotland,newAdmissions,New admissions,101.0
+2020-10-29,nation,N92000002,Northern Ireland,newAdmissions,New admissions,33.0
+2020-10-29,nation,E92000001,England,newAdmissions,New admissions,1345.0
+2020-10-29,nation,W92000004,Wales,newAdmissions,New admissions,86.0
+2020-10-30,nation,N92000002,Northern Ireland,newAdmissions,New admissions,32.0
+2020-10-30,nation,S92000003,Scotland,newAdmissions,New admissions,130.0
+2020-10-30,nation,W92000004,Wales,newAdmissions,New admissions,97.0
+2020-10-30,nation,E92000001,England,newAdmissions,New admissions,1109.0
+2020-10-31,nation,S92000003,Scotland,newAdmissions,New admissions,103.0
+2020-10-31,nation,W92000004,Wales,newAdmissions,New admissions,80.0
+2020-10-31,nation,E92000001,England,newAdmissions,New admissions,1240.0
+2020-10-31,nation,N92000002,Northern Ireland,newAdmissions,New admissions,21.0
+2020-11-01,nation,W92000004,Wales,newAdmissions,New admissions,76.0
+2020-11-01,nation,E92000001,England,newAdmissions,New admissions,1280.0
+2020-11-01,nation,S92000003,Scotland,newAdmissions,New admissions,104.0
+2020-11-01,nation,N92000002,Northern Ireland,newAdmissions,New admissions,29.0
+2020-11-02,nation,N92000002,Northern Ireland,newAdmissions,New admissions,36.0
+2020-11-02,nation,E92000001,England,newAdmissions,New admissions,1331.0
+2020-11-02,nation,W92000004,Wales,newAdmissions,New admissions,75.0
+2020-11-02,nation,S92000003,Scotland,newAdmissions,New admissions,113.0
+2020-11-03,nation,W92000004,Wales,newAdmissions,New admissions,104.0
+2020-11-03,nation,S92000003,Scotland,newAdmissions,New admissions,114.0
+2020-11-03,nation,E92000001,England,newAdmissions,New admissions,1246.0
+2020-11-03,nation,N92000002,Northern Ireland,newAdmissions,New admissions,41.0
+2020-11-04,nation,E92000001,England,newAdmissions,New admissions,1382.0
+2020-11-04,nation,N92000002,Northern Ireland,newAdmissions,New admissions,27.0
+2020-11-04,nation,S92000003,Scotland,newAdmissions,New admissions,123.0
+2020-11-04,nation,W92000004,Wales,newAdmissions,New admissions,129.0
+2020-11-05,nation,N92000002,Northern Ireland,newAdmissions,New admissions,14.0
+2020-11-05,nation,W92000004,Wales,newAdmissions,New admissions,102.0
+2020-11-05,nation,E92000001,England,newAdmissions,New admissions,1346.0
+2020-11-05,nation,S92000003,Scotland,newAdmissions,New admissions,101.0
+2020-11-06,nation,E92000001,England,newAdmissions,New admissions,1182.0
+2020-11-06,nation,N92000002,Northern Ireland,newAdmissions,New admissions,30.0
+2020-11-06,nation,W92000004,Wales,newAdmissions,New admissions,82.0
+2020-11-06,nation,S92000003,Scotland,newAdmissions,New admissions,97.0
+2020-11-07,nation,W92000004,Wales,newAdmissions,New admissions,112.0
+2020-11-07,nation,N92000002,Northern Ireland,newAdmissions,New admissions,18.0
+2020-11-07,nation,S92000003,Scotland,newAdmissions,New admissions,87.0
+2020-11-07,nation,E92000001,England,newAdmissions,New admissions,1319.0
+2020-11-08,nation,W92000004,Wales,newAdmissions,New admissions,75.0
+2020-11-08,nation,E92000001,England,newAdmissions,New admissions,1488.0
+2020-11-08,nation,S92000003,Scotland,newAdmissions,New admissions,81.0
+2020-11-08,nation,N92000002,Northern Ireland,newAdmissions,New admissions,28.0
+2020-11-09,nation,S92000003,Scotland,newAdmissions,New admissions,101.0
+2020-11-09,nation,E92000001,England,newAdmissions,New admissions,1551.0
+2020-11-09,nation,W92000004,Wales,newAdmissions,New admissions,64.0
+2020-11-09,nation,N92000002,Northern Ireland,newAdmissions,New admissions,34.0
+2020-11-10,nation,S92000003,Scotland,newAdmissions,New admissions,106.0
+2020-11-10,nation,E92000001,England,newAdmissions,New admissions,1592.0
+2020-11-10,nation,N92000002,Northern Ireland,newAdmissions,New admissions,41.0
+2020-11-10,nation,W92000004,Wales,newAdmissions,New admissions,104.0
+2020-11-11,nation,W92000004,Wales,newAdmissions,New admissions,95.0
+2020-11-11,nation,S92000003,Scotland,newAdmissions,New admissions,116.0
+2020-11-11,nation,E92000001,England,newAdmissions,New admissions,1711.0
+2020-11-11,nation,N92000002,Northern Ireland,newAdmissions,New admissions,34.0
+2020-11-12,nation,S92000003,Scotland,newAdmissions,New admissions,114.0
+2020-11-12,nation,E92000001,England,newAdmissions,New admissions,1666.0
+2020-11-12,nation,N92000002,Northern Ireland,newAdmissions,New admissions,18.0
+2020-11-12,nation,W92000004,Wales,newAdmissions,New admissions,100.0
+2020-11-13,nation,S92000003,Scotland,newAdmissions,New admissions,110.0
+2020-11-13,nation,W92000004,Wales,newAdmissions,New admissions,74.0
+2020-11-13,nation,N92000002,Northern Ireland,newAdmissions,New admissions,19.0
+2020-11-13,nation,E92000001,England,newAdmissions,New admissions,1433.0
+2020-11-14,nation,E92000001,England,newAdmissions,New admissions,1388.0
+2020-11-14,nation,W92000004,Wales,newAdmissions,New admissions,89.0
+2020-11-14,nation,S92000003,Scotland,newAdmissions,New admissions,100.0
+2020-11-14,nation,N92000002,Northern Ireland,newAdmissions,New admissions,26.0
+2020-11-15,nation,N92000002,Northern Ireland,newAdmissions,New admissions,27.0
+2020-11-15,nation,S92000003,Scotland,newAdmissions,New admissions,93.0
+2020-11-15,nation,W92000004,Wales,newAdmissions,New admissions,69.0
+2020-11-15,nation,E92000001,England,newAdmissions,New admissions,1467.0
+2020-11-16,nation,W92000004,Wales,newAdmissions,New admissions,71.0
+2020-11-16,nation,E92000001,England,newAdmissions,New admissions,1560.0
+2020-11-16,nation,S92000003,Scotland,newAdmissions,New admissions,95.0
+2020-11-16,nation,N92000002,Northern Ireland,newAdmissions,New admissions,27.0
+2020-11-17,nation,N92000002,Northern Ireland,newAdmissions,New admissions,27.0
+2020-11-17,nation,W92000004,Wales,newAdmissions,New admissions,72.0
+2020-11-17,nation,S92000003,Scotland,newAdmissions,New admissions,111.0
+2020-11-17,nation,E92000001,England,newAdmissions,New admissions,1491.0
+2020-11-18,nation,W92000004,Wales,newAdmissions,New admissions,80.0
+2020-11-18,nation,S92000003,Scotland,newAdmissions,New admissions,95.0
+2020-11-18,nation,E92000001,England,newAdmissions,New admissions,1571.0
+2020-11-18,nation,N92000002,Northern Ireland,newAdmissions,New admissions,25.0
+2020-11-19,nation,W92000004,Wales,newAdmissions,New admissions,67.0
+2020-11-19,nation,N92000002,Northern Ireland,newAdmissions,New admissions,20.0
+2020-11-19,nation,S92000003,Scotland,newAdmissions,New admissions,97.0
+2020-11-19,nation,E92000001,England,newAdmissions,New admissions,1484.0
+2020-11-20,nation,N92000002,Northern Ireland,newAdmissions,New admissions,28.0
+2020-11-20,nation,S92000003,Scotland,newAdmissions,New admissions,107.0
+2020-11-20,nation,W92000004,Wales,newAdmissions,New admissions,77.0
+2020-11-20,nation,E92000001,England,newAdmissions,New admissions,1316.0
+2020-11-21,nation,S92000003,Scotland,newAdmissions,New admissions,88.0
+2020-11-21,nation,W92000004,Wales,newAdmissions,New admissions,84.0
+2020-11-21,nation,E92000001,England,newAdmissions,New admissions,1255.0
+2020-11-21,nation,N92000002,Northern Ireland,newAdmissions,New admissions,17.0
+2020-11-22,nation,S92000003,Scotland,newAdmissions,New admissions,68.0
+2020-11-22,nation,E92000001,England,newAdmissions,New admissions,1333.0
+2020-11-22,nation,N92000002,Northern Ireland,newAdmissions,New admissions,15.0
+2020-11-22,nation,W92000004,Wales,newAdmissions,New admissions,62.0
+2020-11-23,nation,E92000001,England,newAdmissions,New admissions,1385.0
+2020-11-23,nation,N92000002,Northern Ireland,newAdmissions,New admissions,12.0
+2020-11-23,nation,S92000003,Scotland,newAdmissions,New admissions,108.0
+2020-11-23,nation,W92000004,Wales,newAdmissions,New admissions,71.0
+2020-11-24,nation,N92000002,Northern Ireland,newAdmissions,New admissions,12.0
+2020-11-24,nation,W92000004,Wales,newAdmissions,New admissions,78.0
+2020-11-24,nation,E92000001,England,newAdmissions,New admissions,1277.0
+2020-11-24,nation,S92000003,Scotland,newAdmissions,New admissions,105.0
+2020-11-25,nation,N92000002,Northern Ireland,newAdmissions,New admissions,20.0
+2020-11-25,nation,E92000001,England,newAdmissions,New admissions,1415.0
+2020-11-25,nation,S92000003,Scotland,newAdmissions,New admissions,85.0
+2020-11-25,nation,W92000004,Wales,newAdmissions,New admissions,70.0
+2020-11-26,nation,E92000001,England,newAdmissions,New admissions,1198.0
+2020-11-26,nation,S92000003,Scotland,newAdmissions,New admissions,101.0
+2020-11-26,nation,W92000004,Wales,newAdmissions,New admissions,93.0
+2020-11-26,nation,N92000002,Northern Ireland,newAdmissions,New admissions,16.0
+2020-11-27,nation,N92000002,Northern Ireland,newAdmissions,New admissions,21.0
+2020-11-27,nation,W92000004,Wales,newAdmissions,New admissions,86.0
+2020-11-27,nation,E92000001,England,newAdmissions,New admissions,1055.0
+2020-11-27,nation,S92000003,Scotland,newAdmissions,New admissions,92.0
+2020-11-28,nation,W92000004,Wales,newAdmissions,New admissions,66.0
+2020-11-28,nation,S92000003,Scotland,newAdmissions,New admissions,63.0
+2020-11-28,nation,E92000001,England,newAdmissions,New admissions,1065.0
+2020-11-28,nation,N92000002,Northern Ireland,newAdmissions,New admissions,8.0
+2020-11-29,nation,N92000002,Northern Ireland,newAdmissions,New admissions,17.0
+2020-11-29,nation,E92000001,England,newAdmissions,New admissions,1215.0
+2020-11-29,nation,W92000004,Wales,newAdmissions,New admissions,73.0
+2020-11-29,nation,S92000003,Scotland,newAdmissions,New admissions,70.0
+2020-11-30,nation,E92000001,England,newAdmissions,New admissions,1216.0
+2020-11-30,nation,S92000003,Scotland,newAdmissions,New admissions,88.0
+2020-11-30,nation,W92000004,Wales,newAdmissions,New admissions,62.0
+2020-11-30,nation,N92000002,Northern Ireland,newAdmissions,New admissions,17.0
+2020-12-01,nation,N92000002,Northern Ireland,newAdmissions,New admissions,16.0
+2020-12-01,nation,W92000004,Wales,newAdmissions,New admissions,102.0
+2020-12-01,nation,S92000003,Scotland,newAdmissions,New admissions,82.0
+2020-12-01,nation,E92000001,England,newAdmissions,New admissions,1271.0
+2020-12-02,nation,W92000004,Wales,newAdmissions,New admissions,84.0
+2020-12-02,nation,E92000001,England,newAdmissions,New admissions,1262.0
+2020-12-02,nation,S92000003,Scotland,newAdmissions,New admissions,103.0
+2020-12-02,nation,N92000002,Northern Ireland,newAdmissions,New admissions,15.0
+2020-12-03,nation,N92000002,Northern Ireland,newAdmissions,New admissions,22.0
+2020-12-03,nation,W92000004,Wales,newAdmissions,New admissions,50.0
+2020-12-03,nation,E92000001,England,newAdmissions,New admissions,1337.0
+2020-12-03,nation,S92000003,Scotland,newAdmissions,New admissions,73.0
+2020-12-04,nation,W92000004,Wales,newAdmissions,New admissions,58.0
+2020-12-04,nation,N92000002,Northern Ireland,newAdmissions,New admissions,22.0
+2020-12-04,nation,E92000001,England,newAdmissions,New admissions,1248.0
+2020-12-04,nation,S92000003,Scotland,newAdmissions,New admissions,85.0
+2020-12-05,nation,N92000002,Northern Ireland,newAdmissions,New admissions,18.0
+2020-12-05,nation,S92000003,Scotland,newAdmissions,New admissions,79.0
+2020-12-05,nation,E92000001,England,newAdmissions,New admissions,1186.0
+2020-12-05,nation,W92000004,Wales,newAdmissions,New admissions,81.0
+2020-12-06,nation,E92000001,England,newAdmissions,New admissions,1311.0
+2020-12-06,nation,W92000004,Wales,newAdmissions,New admissions,62.0
+2020-12-06,nation,N92000002,Northern Ireland,newAdmissions,New admissions,23.0
+2020-12-06,nation,S92000003,Scotland,newAdmissions,New admissions,66.0
+2020-12-07,nation,W92000004,Wales,newAdmissions,New admissions,63.0
+2020-12-07,nation,N92000002,Northern Ireland,newAdmissions,New admissions,27.0
+2020-12-07,nation,E92000001,England,newAdmissions,New admissions,1466.0
+2020-12-07,nation,S92000003,Scotland,newAdmissions,New admissions,90.0
+2020-12-08,nation,E92000001,England,newAdmissions,New admissions,1528.0
+2020-12-08,nation,W92000004,Wales,newAdmissions,New admissions,98.0
+2020-12-08,nation,S92000003,Scotland,newAdmissions,New admissions,103.0
+2020-12-08,nation,N92000002,Northern Ireland,newAdmissions,New admissions,30.0
+2020-12-09,nation,N92000002,Northern Ireland,newAdmissions,New admissions,15.0
+2020-12-09,nation,E92000001,England,newAdmissions,New admissions,1550.0
+2020-12-09,nation,S92000003,Scotland,newAdmissions,New admissions,96.0
+2020-12-09,nation,W92000004,Wales,newAdmissions,New admissions,76.0
+2020-12-10,nation,E92000001,England,newAdmissions,New admissions,1524.0
+2020-12-10,nation,W92000004,Wales,newAdmissions,New admissions,105.0
+2020-12-10,nation,N92000002,Northern Ireland,newAdmissions,New admissions,16.0
+2020-12-10,nation,S92000003,Scotland,newAdmissions,New admissions,92.0
+2020-12-11,nation,E92000001,England,newAdmissions,New admissions,1450.0
+2020-12-11,nation,W92000004,Wales,newAdmissions,New admissions,117.0
+2020-12-11,nation,N92000002,Northern Ireland,newAdmissions,New admissions,21.0
+2020-12-11,nation,S92000003,Scotland,newAdmissions,New admissions,93.0
+2020-12-12,nation,N92000002,Northern Ireland,newAdmissions,New admissions,19.0
+2020-12-12,nation,W92000004,Wales,newAdmissions,New admissions,102.0
+2020-12-12,nation,S92000003,Scotland,newAdmissions,New admissions,68.0
+2020-12-12,nation,E92000001,England,newAdmissions,New admissions,1587.0
+2020-12-13,nation,S92000003,Scotland,newAdmissions,New admissions,72.0
+2020-12-13,nation,N92000002,Northern Ireland,newAdmissions,New admissions,28.0
+2020-12-13,nation,W92000004,Wales,newAdmissions,New admissions,64.0
+2020-12-13,nation,E92000001,England,newAdmissions,New admissions,1581.0
+2020-12-14,nation,W92000004,Wales,newAdmissions,New admissions,67.0
+2020-12-14,nation,E92000001,England,newAdmissions,New admissions,1746.0
+2020-12-14,nation,S92000003,Scotland,newAdmissions,New admissions,91.0
+2020-12-14,nation,N92000002,Northern Ireland,newAdmissions,New admissions,30.0
+2020-12-15,nation,N92000002,Northern Ireland,newAdmissions,New admissions,22.0
+2020-12-15,nation,W92000004,Wales,newAdmissions,New admissions,88.0
+2020-12-15,nation,S92000003,Scotland,newAdmissions,New admissions,85.0
+2020-12-15,nation,E92000001,England,newAdmissions,New admissions,1730.0
+2020-12-16,nation,N92000002,Northern Ireland,newAdmissions,New admissions,27.0
+2020-12-16,nation,S92000003,Scotland,newAdmissions,New admissions,108.0
+2020-12-16,nation,W92000004,Wales,newAdmissions,New admissions,131.0
+2020-12-16,nation,E92000001,England,newAdmissions,New admissions,1796.0
+2020-12-17,nation,W92000004,Wales,newAdmissions,New admissions,128.0
+2020-12-17,nation,E92000001,England,newAdmissions,New admissions,1873.0
+2020-12-17,nation,N92000002,Northern Ireland,newAdmissions,New admissions,21.0
+2020-12-17,nation,S92000003,Scotland,newAdmissions,New admissions,97.0
+2020-12-18,nation,E92000001,England,newAdmissions,New admissions,1672.0
+2020-12-18,nation,S92000003,Scotland,newAdmissions,New admissions,90.0
+2020-12-18,nation,N92000002,Northern Ireland,newAdmissions,New admissions,24.0
+2020-12-18,nation,W92000004,Wales,newAdmissions,New admissions,119.0
+2020-12-19,nation,S92000003,Scotland,newAdmissions,New admissions,93.0
+2020-12-19,nation,N92000002,Northern Ireland,newAdmissions,New admissions,18.0
+2020-12-19,nation,W92000004,Wales,newAdmissions,New admissions,107.0
+2020-12-19,nation,E92000001,England,newAdmissions,New admissions,1812.0
+2020-12-20,nation,W92000004,Wales,newAdmissions,New admissions,90.0
+2020-12-20,nation,N92000002,Northern Ireland,newAdmissions,New admissions,16.0
+2020-12-20,nation,S92000003,Scotland,newAdmissions,New admissions,69.0
+2020-12-20,nation,E92000001,England,newAdmissions,New admissions,1976.0
+2020-12-21,nation,W92000004,Wales,newAdmissions,New admissions,92.0
+2020-12-21,nation,N92000002,Northern Ireland,newAdmissions,New admissions,30.0
+2020-12-21,nation,E92000001,England,newAdmissions,New admissions,2115.0
+2020-12-21,nation,S92000003,Scotland,newAdmissions,New admissions,106.0
+2020-12-22,nation,E92000001,England,newAdmissions,New admissions,2203.0
+2020-12-22,nation,N92000002,Northern Ireland,newAdmissions,New admissions,26.0
+2020-12-22,nation,W92000004,Wales,newAdmissions,New admissions,124.0
+2020-12-22,nation,S92000003,Scotland,newAdmissions,New admissions,104.0
+2020-12-23,nation,W92000004,Wales,newAdmissions,New admissions,143.0
+2020-12-23,nation,N92000002,Northern Ireland,newAdmissions,New admissions,26.0
+2020-12-23,nation,S92000003,Scotland,newAdmissions,New admissions,104.0
+2020-12-23,nation,E92000001,England,newAdmissions,New admissions,1980.0
+2020-12-24,nation,W92000004,Wales,newAdmissions,New admissions,146.0
+2020-12-24,nation,N92000002,Northern Ireland,newAdmissions,New admissions,21.0
+2020-12-24,nation,S92000003,Scotland,newAdmissions,New admissions,99.0
+2020-12-24,nation,E92000001,England,newAdmissions,New admissions,1795.0
+2020-12-25,nation,E92000001,England,newAdmissions,New admissions,1952.0
+2020-12-25,nation,N92000002,Northern Ireland,newAdmissions,New admissions,25.0
+2020-12-25,nation,S92000003,Scotland,newAdmissions,New admissions,81.0
+2020-12-25,nation,W92000004,Wales,newAdmissions,New admissions,106.0
+2020-12-26,nation,W92000004,Wales,newAdmissions,New admissions,73.0
+2020-12-26,nation,N92000002,Northern Ireland,newAdmissions,New admissions,24.0
+2020-12-26,nation,E92000001,England,newAdmissions,New admissions,2298.0
+2020-12-26,nation,S92000003,Scotland,newAdmissions,New admissions,110.0
+2020-12-27,nation,N92000002,Northern Ireland,newAdmissions,New admissions,23.0
+2020-12-27,nation,S92000003,Scotland,newAdmissions,New admissions,142.0
+2020-12-27,nation,W92000004,Wales,newAdmissions,New admissions,97.0
+2020-12-27,nation,E92000001,England,newAdmissions,New admissions,2572.0
+2020-12-28,nation,N92000002,Northern Ireland,newAdmissions,New admissions,44.0
+2020-12-28,nation,E92000001,England,newAdmissions,New admissions,2795.0
+2020-12-28,nation,S92000003,Scotland,newAdmissions,New admissions,152.0
+2020-12-28,nation,W92000004,Wales,newAdmissions,New admissions,125.0
+2020-12-29,nation,N92000002,Northern Ireland,newAdmissions,New admissions,50.0
+2020-12-29,nation,S92000003,Scotland,newAdmissions,New admissions,154.0
+2020-12-29,nation,W92000004,Wales,newAdmissions,New admissions,136.0
+2020-12-29,nation,E92000001,England,newAdmissions,New admissions,2886.0
+2020-12-30,nation,N92000002,Northern Ireland,newAdmissions,New admissions,41.0
+2020-12-30,nation,W92000004,Wales,newAdmissions,New admissions,164.0
+2020-12-30,nation,S92000003,Scotland,newAdmissions,New admissions,187.0
+2020-12-30,nation,E92000001,England,newAdmissions,New admissions,2861.0
+2020-12-31,nation,E92000001,England,newAdmissions,New admissions,2536.0
+2020-12-31,nation,N92000002,Northern Ireland,newAdmissions,New admissions,33.0
+2020-12-31,nation,W92000004,Wales,newAdmissions,New admissions,141.0
+2020-12-31,nation,S92000003,Scotland,newAdmissions,New admissions,175.0
